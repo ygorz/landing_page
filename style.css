@@ -47,4 +47,107 @@ body {
     text-decoration: none;
 }
 
-/* MAIN PAGE */
+/* HERO SECTION MAIN */
+
+.hero-main,
+.hero-header {
+    display: flex;
+}
+
+.hero-header {
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.hero-header div {
+    color: #F9FAF8;
+}
+
+.hero-main {
+    
+    height: 400px;
+    padding: 0 150px;
+    gap: 16px;
+    background-color: #1F2937;
+    align-items: center;
+}
+
+.hero-header,
+.hero-image {
+    flex: 1;
+    width: 200px;
+    height: 250px;
+}
+
+
+
+.hero-image {
+    background-color: gray;
+    color: #F9FAF8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.hero-title {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8
+}
+
+.hero-description {
+    font-size: 18px; 
+    color: #E5E7EB;
+}
+
+button {
+    font-size: 18px;
+    padding: 8px 32px;
+    background-color: dodgerblue;
+    color: #F9FAF8;
+    border-style: none;
+    border-radius: 8px;
+}
+
+/* HERO SECTION SECONDARY */
+
+.hero-secondary {
+    display: flex;
+    flex-direction: column;
+    padding: 0 150px;
+    align-items: center;
+    height: 400px;
+    justify-content: space-evenly;
+    
+}
+
+.hero-secondary-info {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.card-pic {
+    height: 180px;
+    width: 180px;
+    border: 3px solid dodgerblue;
+    border-radius: 16px;
+    margin-bottom: 10px;
+}
+
+.information-cards {
+    display: flex;
+    gap: 32px;
+}
+
+.card-info {
+    text-align: center;
+}
+
+/* QUOTE SECTION */
+.quote-section {
+    height: 400px;
+    background-color: #E5E7EB;
+}
