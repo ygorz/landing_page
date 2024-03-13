@@ -11,7 +11,6 @@ body {
 }
 
 /* HEADER */
-
 .header {
     background-color: #1F2937;
     color: #F9FAF8;
@@ -48,7 +47,6 @@ body {
 }
 
 /* HERO SECTION MAIN */
-
 .hero-main,
 .hero-header {
     display: flex;
@@ -64,7 +62,6 @@ body {
 }
 
 .hero-main {
-    
     height: 400px;
     padding: 0 150px;
     gap: 16px;
@@ -78,8 +75,6 @@ body {
     width: 200px;
     height: 250px;
 }
-
-
 
 .hero-image {
     background-color: gray;
@@ -112,7 +107,6 @@ button {
 }
 
 /* HERO SECTION SECONDARY */
-
 .hero-secondary {
     display: flex;
     flex-direction: column;
@@ -150,4 +144,64 @@ button {
 .quote-section {
     height: 400px;
     background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 200px;
+    gap: 8px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote-author {
+    margin-left: 70%;
+}
+
+/* SIGN UP SECTION */
+.sign-up-section {
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+}
+
+.sign-up-box {
+    background-color: dodgerblue;
+    height: 200px;
+    width: 850px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.call-to-section div {
+    color: white;
+}
+
+.its-time {
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.sign-up-section button {
+    border: 3px solid white;
+    font-size: 16px;
+}
+    
+/* FOOTER */
+.footer {
+    background-color: #1F2937;
+    text-align: center;
+    color: white;
+    padding: 24px 0;
+    font-weight: lighter;
 }
